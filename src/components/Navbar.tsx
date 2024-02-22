@@ -7,6 +7,7 @@ import { DownloadIcon } from "@radix-ui/react-icons";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { RESUME_LINK } from "@/data/constants";
+import Link from "./Link";
 
 interface RouteProps {
 	href: string;
@@ -40,10 +41,10 @@ export const Navbar = () => {
 			<NavigationMenu className="mx-auto">
 				<NavigationMenuList className="container h-14 px-4 w-[calc(100vw-1rem)] flex justify-between ">
 					<NavigationMenuItem className="font-bold flex">
-						<a href="/" className="ml-2 font-bold text-xl flex">
+						<Link target="_self" href="/" className="ml-2 font-bold text-xl flex">
 							<LogoIcon />
 							Ajaz Ur Rehman
-						</a>
+						</Link>
 					</NavigationMenuItem>
 
 					{/* mobile */}

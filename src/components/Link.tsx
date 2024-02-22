@@ -1,14 +1,7 @@
-import { cn } from "@/lib/utils";
 import { HTMLProps } from "react";
 
 function Link(props: HTMLProps<HTMLAnchorElement>) {
-	return (
-		<a
-			target="_blank"
-			{...props}
-			className={cn("text-primary transition-all border-primary hover:border-b-2", props.className)}
-		></a>
-	);
+	return <a target="_blank" className="text-primary transition-all border-primary hover:border-b-2" {...props}></a>;
 }
 
 export default Link;
