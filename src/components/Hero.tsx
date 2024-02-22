@@ -1,7 +1,8 @@
 import { Button } from "./ui/button";
 import { HeroCards } from "./HeroCards";
 import { buttonVariants } from "./ui/button";
-import { EnvelopeClosedIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+import { DownloadIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { Links } from "@/data/constants";
 
 export const Hero = () => {
 	return (
@@ -35,14 +36,14 @@ export const Hero = () => {
 					</Button>
 
 					<a
-						href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+						href={Links.github}
 						target="_blank"
 						className={`w-full md:w-1/3 ${buttonVariants({
 							variant: "outline",
 						})}`}
 					>
-						<GitHubLogoIcon className="mr-2 w-5 h-5" />
-						GitHub
+						<DownloadIcon className="mr-2 w-5 h-5" />
+						Resume
 					</a>
 				</div>
 			</div>

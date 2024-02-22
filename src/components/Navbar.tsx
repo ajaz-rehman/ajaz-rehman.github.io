@@ -3,9 +3,10 @@ import { LogoIcon } from "./Icons";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { buttonVariants } from "./ui/button";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { DownloadIcon } from "@radix-ui/react-icons";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
+import { Links } from "@/data/constants";
 
 interface RouteProps {
 	href: string;
@@ -72,14 +73,14 @@ export const Navbar = () => {
 										</a>
 									))}
 									<a
-										href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+										href={Links.resume}
 										target="_blank"
 										className={`w-[110px] border ${buttonVariants({
 											variant: "secondary",
 										})}`}
 									>
-										<GitHubLogoIcon className="mr-2 w-5 h-5" />
-										GitHub
+										<DownloadIcon className="mr-2 w-5 h-5" />
+										Resume
 									</a>
 								</nav>
 							</SheetContent>
@@ -103,12 +104,12 @@ export const Navbar = () => {
 
 					<div className="hidden md:flex gap-2">
 						<a
-							href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+							href={Links.resume}
 							target="_blank"
 							className={`border ${buttonVariants({ variant: "secondary" })}`}
 						>
-							<GitHubLogoIcon className="mr-2 w-5 h-5" />
-							GitHub
+							<DownloadIcon className="mr-2 w-5 h-5" />
+							Resume
 						</a>
 
 						<ModeToggle />
