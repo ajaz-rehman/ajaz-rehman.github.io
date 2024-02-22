@@ -1,8 +1,6 @@
-import { Button } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { buttonVariants } from "./ui/button";
-import { DownloadIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
-import { Links } from "@/data/constants";
+import { SocialLinks } from "@/data/constants";
+import { SocialIcon } from "react-social-icons";
 
 export const Hero = () => {
 	return (
@@ -30,21 +28,14 @@ export const Hero = () => {
 				</p>
 
 				<div className="space-y-4 md:space-y-0 md:space-x-4">
-					<Button className="w-full md:w-1/3">
-						<EnvelopeClosedIcon className="mr-2 w-5 h-5" />
-						Email
-					</Button>
-
-					<a
-						href={Links.github}
-						target="_blank"
-						className={`w-full md:w-1/3 ${buttonVariants({
-							variant: "outline",
-						})}`}
-					>
-						<DownloadIcon className="mr-2 w-5 h-5" />
-						Resume
-					</a>
+					{Object.values(SocialLinks).map((link: string) => (
+						<SocialIcon
+							key={link}
+							url={link}
+							bgColor="hsl(var(--secondary))"
+							fgColor="hsl(var(--primary))"
+						/>
+					))}
 				</div>
 			</div>
 
