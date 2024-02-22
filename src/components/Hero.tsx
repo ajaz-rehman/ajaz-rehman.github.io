@@ -1,4 +1,3 @@
-import { HeroCards } from "./HeroCards";
 import { SocialLinks } from "@/data/constants";
 import { SocialIcon } from "react-social-icons";
 
@@ -27,7 +26,7 @@ export const Hero = () => {
 					I love building pixel-perfect, engaging, and accessible products for the web.
 				</p>
 
-				<div className="space-y-4 md:space-y-0 md:space-x-4">
+				<div className="flex flex-wrap gap-4 justify-center lg:justify-start">
 					{Object.values(SocialLinks).map((link: string) => (
 						<SocialIcon
 							key={link}
@@ -40,9 +39,9 @@ export const Hero = () => {
 			</div>
 
 			{/* Hero cards sections */}
-			<div className="z-10">
+			{/* <div className="z-10">
 				<HeroCards />
-			</div>
+			</div> */}
 
 			{/* Shadow effect */}
 			<div className="shadow"></div>
