@@ -1,5 +1,6 @@
 import { SocialLinks } from "@/data/constants";
 import { SocialIcon } from "react-social-icons";
+import { HeroCards } from "./HeroCards";
 
 export const Hero = () => {
 	return (
@@ -39,9 +40,9 @@ export const Hero = () => {
 			</div>
 
 			{/* Hero cards sections */}
-			{/* <div className="z-10">
+			<div className="z-10">
 				<HeroCards />
-			</div> */}
+			</div>
 
 			{/* Shadow effect */}
 			<div className="shadow"></div>
