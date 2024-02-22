@@ -1,6 +1,5 @@
-import { SOCIAL_LINKS } from "@/data/constants";
-import { SocialIcon } from "react-social-icons";
 import { HeroCards } from "./HeroCards";
+import SocialLinks from "./SocialLinks";
 
 export const Hero = () => {
 	return (
@@ -27,16 +26,7 @@ export const Hero = () => {
 					I love building pixel-perfect, engaging, and accessible products for the web.
 				</p>
 
-				<div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-					{Object.values(SOCIAL_LINKS).map((link: string) => (
-						<SocialIcon
-							key={link}
-							url={link}
-							bgColor="hsl(var(--secondary))"
-							fgColor="hsl(var(--primary))"
-						/>
-					))}
-				</div>
+				<SocialLinks className="justify-center lg:justify-start" />
 			</div>
 
 			{/* Hero cards sections */}
