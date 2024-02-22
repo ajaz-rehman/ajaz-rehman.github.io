@@ -79,7 +79,7 @@ export const Navbar = () => {
 										})}`}
 									>
 										<GitHubLogoIcon className="mr-2 w-5 h-5" />
-										Github
+										GitHub
 									</a>
 								</nav>
 							</SheetContent>
@@ -108,7 +108,7 @@ export const Navbar = () => {
 							className={`border ${buttonVariants({ variant: "secondary" })}`}
 						>
 							<GitHubLogoIcon className="mr-2 w-5 h-5" />
-							Github
+							GitHub
 						</a>
 
 						<ModeToggle />

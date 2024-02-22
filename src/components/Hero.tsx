@@ -13,7 +13,7 @@ export const Hero = () => {
 						<span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
 							Ajaz
 						</span>
-						,
+						.
 					</h1>
 					<h2 className="inline">
 						A{" "}
@@ -42,7 +42,7 @@ export const Hero = () => {
 						})}`}
 					>
 						<GitHubLogoIcon className="mr-2 w-5 h-5" />
-						Github
+						GitHub
 					</a>
 				</div>
 			</div>
