@@ -1,25 +1,27 @@
+interface statsProps {
+	quantity: string;
+	description: string;
+}
+
 export const Statistics = () => {
-	interface statsProps {
-		quantity: string;
-		description: string;
-	}
+	const yearsOfExperience = new Date().getFullYear() - 2019;
 
 	const stats: statsProps[] = [
 		{
-			quantity: "2.7K+",
-			description: "Users",
-		},
-		{
-			quantity: "1.8K+",
-			description: "Subscribers",
-		},
-		{
-			quantity: "112",
-			description: "Downloads",
+			quantity: yearsOfExperience + "Y+",
+			description: "Experience",
 		},
 		{
 			quantity: "4",
+			description: "Companies",
+		},
+		{
+			quantity: "7",
 			description: "Products",
+		},
+		{
+			quantity: "9K+",
+			description: "Commits",
 		},
 	];
 

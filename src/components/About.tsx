@@ -16,10 +16,17 @@ export const About = () => {
 								Me
 							</h2>
 							<p className="text-xl text-muted-foreground mt-4">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor
-								sit amet, consectetur adipiscing elit.
+								I'm a software engineer specializing in full-stack web development using JavaScript,
+								TypeScript, React, Vue, and Node. I've had the privilege of working on diverse projects,
+								from developing scalable APIs, crafting UI libraries, refactoring code, building SaaS
+								services, integrating 3rd party libraries, fixing issues, migrating databases to
+								deploying projects on the cloud.
+								<br />
+								<br />I love to architect efficient solutions and optimize performance. My dedication to
+								continuous learning and keeping up with industry trends has led to successful project
+								deliveries and recognition from peers. Whether collaborating with cross-functional teams
+								or leading development efforts independently, I consistently deliver high-quality code
+								and solutions that exceed expectations.
 							</p>
 						</div>
 
