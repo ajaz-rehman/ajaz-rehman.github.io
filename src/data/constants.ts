@@ -13,3 +13,10 @@ export const STATS = {
 	Products: 7,
 	Commits: "9K+",
 };
+
+export const OTHER_LINKS = {
+	Vite: "https://vitejs.dev",
+	TailwindCSS: "https://tailwindcss.com",
+	AWS_S3: "https://aws.amazon.com/s3",
+	AWS_CloudFront: "https://aws.amazon.com/cloudfront",
+};
