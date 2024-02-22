@@ -8,8 +8,8 @@ export const SOCIAL_LINKS = {
 export const RESUME_LINK = "https://drive.google.com/file/d/1";
 
 export const STATS = {
-	experience: new Date().getFullYear() - 2019 + "Y+",
-	companies: 4,
-	products: 7,
-	commits: "9K+",
+	Experience: new Date().getFullYear() - 2019 + "Y+",
+	Companies: 4,
+	Products: 7,
+	Commits: "9K+",
 };
