@@ -1,4 +1,4 @@
-import { SocialLinks } from "@/data/constants";
+import { SOCIAL_LINKS } from "@/data/constants";
 import { SocialIcon } from "react-social-icons";
 import { HeroCards } from "./HeroCards";
 
@@ -28,7 +28,7 @@ export const Hero = () => {
 				</p>
 
 				<div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-					{Object.values(SocialLinks).map((link: string) => (
+					{Object.values(SOCIAL_LINKS).map((link: string) => (
 						<SocialIcon
 							key={link}
 							url={link}

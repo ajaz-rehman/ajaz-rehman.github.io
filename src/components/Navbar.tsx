@@ -6,7 +6,7 @@ import { buttonVariants } from "./ui/button";
 import { DownloadIcon } from "@radix-ui/react-icons";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { ResumeLink } from "@/data/constants";
+import { RESUME_LINK } from "@/data/constants";
 
 interface RouteProps {
 	href: string;
@@ -73,7 +73,7 @@ export const Navbar = () => {
 										</a>
 									))}
 									<a
-										href={ResumeLink}
+										href={RESUME_LINK}
 										target="_blank"
 										className={`w-[110px] border ${buttonVariants({
 											variant: "secondary",
@@ -104,7 +104,7 @@ export const Navbar = () => {
 
 					<div className="hidden md:flex gap-2">
 						<a
-							href={ResumeLink}
+							href={RESUME_LINK}
 							target="_blank"
 							className={`border ${buttonVariants({ variant: "secondary" })}`}
 						>
