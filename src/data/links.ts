@@ -1,20 +1,13 @@
-export const SOCIAL_LINKS = {
+export const SOCIAL = {
 	github: "https://github.com/ajaz-ur-rehman",
 	linkedin: "https://linkedin.com/in/ajaz-ur-rehman",
 	leetcode: "https://leetcode.com/ajaz-ur-rehman",
 	email: "mailto:ajazurrehman4@gmail.com",
 };
 
-export const RESUME_LINK = "/resume.pdf";
+export const RESUME = "/resume.pdf";
 
-export const STATS = {
-	Experience: new Date().getFullYear() - 2019 + "Y+",
-	Companies: 4,
-	Products: 7,
-	Commits: "9K+",
-};
-
-export const OTHER_LINKS = {
+export const SERVICES = {
 	Vite: "https://vitejs.dev",
 	TailwindCSS: "https://tailwindcss.com",
 	AWS_S3: "https://aws.amazon.com/s3",

@@ -1,6 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Link from "./Link";
-import { SOCIAL_LINKS } from "@/data/constants";
+import { SOCIAL } from "@/data/links";
 
 interface FAQProps {
 	question: string;
@@ -57,7 +57,7 @@ export const FAQ = () => {
 			</Accordion>
 
 			<h3 className="font-medium mt-4">
-				Still have questions? <Link href={SOCIAL_LINKS.email}>Email me</Link>
+				Still have questions? <Link href={SOCIAL.email}>Email me</Link>
 			</h3>
 		</section>
 	);

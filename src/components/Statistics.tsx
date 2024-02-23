@@ -1,4 +1,4 @@
-import { STATS } from "@/data/constants";
+import { STATS } from "@/data/statistics";
 
 export const Statistics = () => {
 	return (
