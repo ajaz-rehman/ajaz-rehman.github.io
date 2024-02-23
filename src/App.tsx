@@ -2,7 +2,6 @@ import "./App.css";
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
 import { Hero } from "./components/Hero";
-import { Team } from "./components/Team";
 import { About } from "./components/About";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
@@ -25,7 +24,6 @@ function App() {
 			<Services />
 			<Cta />
 			<Testimonials />
-			<Team />
 			<Pricing />
 			<Newsletter />
 			<FAQ />
