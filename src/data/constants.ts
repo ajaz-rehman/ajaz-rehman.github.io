@@ -5,7 +5,7 @@ export const SOCIAL_LINKS = {
 	email: "mailto:ajazurrehman4@gmail.com",
 };
 
-export const RESUME_LINK = "https://drive.google.com/file/d/1";
+export const RESUME_LINK = "/resume.pdf";
 
 export const STATS = {
 	Experience: new Date().getFullYear() - 2019 + "Y+",
