@@ -1,8 +1,8 @@
+import Link from "./Link";
 import { TESTIMONIALS } from "@/data/testimonials";
 import { buttonVariants } from "@/components/ui/button";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import Link from "./Link";
 
 export const Testimonials = () => {
 	const socialIcon = (iconName: string) => {
@@ -21,15 +21,13 @@ export const Testimonials = () => {
 	return (
 		<section id="testimonials" className="container py-24 sm:py-32">
 			<h2 className="text-3xl md:text-4xl font-bold">
+				Some{" "}
 				<span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-					Our Dedicated{" "}
+					Testimonials
 				</span>
-				Crew
 			</h2>
 
-			<p className="mt-4 mb-10 text-xl text-muted-foreground">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis dolor pariatur sit!
-			</p>
+			<p className="mt-4 mb-10 text-xl text-muted-foreground">Here's what my colleagues have to say about me.</p>
 
 			<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
 				{TESTIMONIALS.map(({ imageUrl, name, position, socialNetworks, text }) => (
