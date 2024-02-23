@@ -9,6 +9,8 @@ export const RESUME = "/resume.pdf";
 
 export const SERVICES = {
 	Vite: "https://vitejs.dev",
+	React: "https://reactjs.org",
+	ShadCN: "https://ui.shadcn.com",
 	TailwindCSS: "https://tailwindcss.com",
 	AWS_S3: "https://aws.amazon.com/s3",
 	AWS_CloudFront: "https://aws.amazon.com/cloudfront",
