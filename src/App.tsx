@@ -9,7 +9,6 @@ import { Pricing } from "./components/Pricing";
 import { Features } from "./components/Features";
 import { Services } from "./components/Services";
 import { HowItWorks } from "./components/HowItWorks";
-import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Testimonials } from "./components/Testimonials";
 
@@ -25,7 +24,6 @@ function App() {
 			<Cta />
 			<Testimonials />
 			<Pricing />
-			<Newsletter />
 			<FAQ />
 			<Footer />
 			<ScrollToTop />
