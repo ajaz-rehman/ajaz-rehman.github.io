@@ -5,7 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQ_LIST = [
 	{
 		id: "item-1",
-		question: "What is the tech stack of this portfolio website?",
+		question: "What is the tech stack of this website?",
 		answer: (
 			<>
 				I used <Link href={SERVICES.React}>React</Link>, <Link href={SERVICES.ShadCN}>ShadCN</Link>,{" "}
@@ -18,17 +18,17 @@ const FAQ_LIST = [
 	{
 		id: "item-2",
 		question: "What technologies and frameworks do you like to work with?",
-		answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+		answer: "I prefer using JavaScript and TypeScript for web development. I also like working with React, Node, and Vue. I am also familiar with Python, and Java.",
 	},
 	{
 		id: "item-3",
-		question: "How much experience do I have in different technologies?",
-		answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		question: "How much experience do you have in different technologies?",
+		answer: "I have 5 years of experience in JavaScript, 2 years in React, 4 years in Node, 2 years in AWS, and 2 years in Vue.",
 	},
 	{
 		id: "item-4",
-		question: "Have you ever built a project from scratch?",
-		answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+		question: "Have you ever built a commercial project from scratch?",
+		answer: "I have built 2 SaaS projects, and 2 client projects from start to completion, including development, deployment, and maintenance.",
 	},
 ];
 
