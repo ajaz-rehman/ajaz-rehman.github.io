@@ -12,19 +12,19 @@ const serviceList: ServiceProps[] = [
 	{
 		title: "Front-End Development",
 		description:
-			"I can build beautiful, accessible, responsive and fast web applications using latest web technologies, and frameworks.",
+			"I can build beautiful, accessible, responsive, and fast web applications using the latest web frameworks.",
 		icon: <ChartIcon />,
 	},
 	{
 		title: "Back-End Development",
 		description:
-			"I can create scalable and secure back-end systems using modern tools, integrate with third-party apps, and setup webhooks.",
+			"I can create scalable and secure back-end APIs using modern tools, integrate with third-party apps, and setup webhooks.",
 		icon: <WalletIcon />,
 	},
 	{
 		title: "Cloud Deployment & Management",
 		description:
-			"I can deploy and manage your applications on cloud platforms like AWS, GCP, and Azure. I can also manage your DNS, SSL, and CDN.",
+			"I can deploy your applications on cloud platforms like AWS, GCP, and Azure. I can also manage your DNS, SSL, and CDN.",
 		icon: <MagnifierIcon />,
 	},
 ];
