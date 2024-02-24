@@ -22,7 +22,7 @@ const serviceList: ServiceProps[] = [
 		icon: <WalletIcon />,
 	},
 	{
-		title: "Cloud Deployment & Management",
+		title: "Cloud Deployment",
 		description:
 			"I can deploy your applications on cloud platforms like AWS, GCP, and Azure. I can also manage your DNS, SSL, and CDN.",
 		icon: <MagnifierIcon />,
