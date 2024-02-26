@@ -1,9 +1,9 @@
+import Link from "./Link";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { Badge } from "./ui/badge";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { PROJECTS } from "@/data/projects";
-import Link from "./Link";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Projects = () => {
 	const [activeProject, setActiveProject] = useState(PROJECTS[0]);
@@ -45,7 +45,9 @@ export const Projects = () => {
 				</CardHeader>
 
 				<CardContent>
-					<img src={activeProject.imageSrc} className="h-auto max-w-full min-h-[50%] rounded-lg border" />
+					<div className="pb-[calc(48%)] relative">
+						<img src={activeProject.imageSrc} className="h-auto max-w-full rounded border absolute" />
+					</div>
 				</CardContent>
 
 				<CardFooter className="justify-center">

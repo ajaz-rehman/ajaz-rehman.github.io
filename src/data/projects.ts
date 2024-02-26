@@ -1,8 +1,8 @@
 import adsumImage from "@/assets/images/projects/adsum.png";
 import skootImage from "@/assets/images/projects/skoot.png";
-import automateMyAppImage from "@/assets/images/projects/automatemyapp.jpeg";
-import clearalistImage from "@/assets/images/projects/clearalist.png";
 import pabblyImage from "@/assets/images/projects/pabbly.png";
+import clearalistImage from "@/assets/images/projects/clearalist.png";
+import automateMyAppImage from "@/assets/images/projects/automatemyapp.png";
 
 export const PROJECTS = [
 	{
