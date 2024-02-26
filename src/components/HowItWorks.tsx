@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
+import { GiftIcon, MapIcon, MedalIcon, PlaneIcon } from "../components/Icons";
 
 interface FeatureProps {
 	icon: JSX.Element;
@@ -40,6 +40,7 @@ export const HowItWorks = () => {
 				</span>
 				Step-by-Step Guide
 			</h2>
+
 			<p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis dolor pariatur sit!
 			</p>
