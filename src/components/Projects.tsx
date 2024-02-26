@@ -45,7 +45,7 @@ export const Projects = () => {
 				</CardHeader>
 
 				<CardContent>
-					<img src={activeProject.imageSrc} className="h-auto max-w-full rounded-lg border" />
+					<img src={activeProject.imageSrc} className="h-auto max-w-full min-h-[50%] rounded-lg border" />
 				</CardContent>
 
 				<CardFooter className="justify-center">
