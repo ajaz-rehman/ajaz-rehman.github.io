@@ -16,17 +16,24 @@ export const About = () => {
 								Me
 							</h2>
 							<p className="text-xl text-muted-foreground mt-4">
-								I'm a software engineer specializing in full-stack web development using JavaScript,
-								TypeScript, React, Vue, and Node. I've had the privilege of working on diverse projects,
-								from developing scalable APIs, crafting UI libraries, refactoring code, building SaaS
-								services, integrating 3rd party libraries, fixing issues, migrating databases to
-								deploying projects on the cloud.
+								I'm Ajaz, a passionate software engineer specializing in full-stack web development with
+								expertise in JavaScript, TypeScript, React, Vue, and Node. Over the years, I've had the
+								privilege of working in diverse projects, from architecting scalable APIs to crafting
+								intuitive UI libraries and deploying solutions on the cloud.
 								<br />
-								<br />I love to architect efficient solutions and optimize performance. My dedication to
-								continuous learning and keeping up with industry trends has led to successful project
-								deliveries and recognition from peers. Whether collaborating with cross-functional teams
-								or leading development efforts independently, I consistently deliver high-quality code
-								and solutions that exceed expectations.
+								<br />
+								I thrive on architecting efficient solutions and optimizing performance to deliver
+								seamless user experiences. My commitment to staying abreast of industry trends and
+								continuously learning has led to successful project deliveries and garnered recognition
+								from my peers.
+								<br />
+								<br />
+								Whether collaborating with cross-functional teams or leading independent development
+								efforts, I consistently deliver high-quality code and solutions that surpass
+								expectations.
+								<br />
+								<br />
+								Let's connect and explore how we can bring your next project to life!
 							</p>
 						</div>
 
