@@ -2,9 +2,9 @@ import Link from "./Link";
 import { useState } from "react";
 import { LogoIcon } from "./Icons";
 import { Menu } from "lucide-react";
-import { RESUME } from "@/data/links";
 import { ModeToggle } from "./mode-toggle";
 import { buttonVariants } from "./ui/button";
+import { RESUME, WEBSITE } from "@/data/links";
 import { DownloadIcon } from "@radix-ui/react-icons";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
@@ -41,7 +41,7 @@ export const Navbar = () => {
 			<NavigationMenu className="mx-auto">
 				<NavigationMenuList className="container h-14 px-4 w-[calc(100vw-1rem)] flex justify-between ">
 					<NavigationMenuItem className="font-bold flex">
-						<Link target="_self" href="/" className="ml-2 font-bold text-xl flex">
+						<Link target="_self" href={WEBSITE} className="ml-2 font-bold text-xl flex">
 							<LogoIcon />
 							Ajaz Ur Rehman
 						</Link>

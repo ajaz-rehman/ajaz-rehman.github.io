@@ -30,11 +30,11 @@ export const Testimonials = () => {
 			<p className="mt-4 mb-10 text-xl text-muted-foreground">Here's what my colleagues have to say about me.</p>
 
 			<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
-				{TESTIMONIALS.map(({ imageUrl, name, position, socialNetworks, text }) => (
+				{TESTIMONIALS.map(({ image, name, position, socialNetworks, text }) => (
 					<Card key={name} className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center">
 						<CardHeader className="mt-8 flex justify-center items-center pb-2">
 							<img
-								src={imageUrl}
+								src={image}
 								alt={`${name} ${position}`}
 								className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
 							/>

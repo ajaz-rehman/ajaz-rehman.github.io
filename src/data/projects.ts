@@ -16,7 +16,7 @@ export const PROJECTS = [
 		company: "SKOOT",
 		imageSrc: skootImage,
 		role: "Front-End Developer",
-		websiteLink: "https://adsum-works.com",
+		websiteLink: "https://skoot.eco",
 		companyDescription: "SKOOT offers various products to help anyone reduce their carbon footprint.",
 	},
 	{

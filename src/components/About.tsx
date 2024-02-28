@@ -1,5 +1,5 @@
-import pilot from "../assets/pilot.png";
 import { Statistics } from "./Statistics";
+import pilot from "@/assets/images/pilot.png";
 
 export const About = () => {
 	return (

@@ -1,6 +1,11 @@
+import lisaImage from "@/assets/images/testimonials/lisa.jpeg";
+import lucasImage from "@/assets/images/testimonials/lucas.jpeg";
+import soumilImage from "@/assets/images/testimonials/soumil.jpeg";
+import diparatiImage from "@/assets/images/testimonials/diparati.jpeg";
+
 export const TESTIMONIALS = [
 	{
-		imageUrl: "/images/diparati.jpeg",
+		image: diparatiImage,
 		name: "Diparati Sen",
 		position: "Product Designer",
 		socialNetworks: [
@@ -13,7 +18,7 @@ export const TESTIMONIALS = [
 		text: "Ajaz makes sure he understands the work before he starts working. He has an amazing eye for detail and asks the right questions. He is one of the most patient and dedicated people I have come across and I can blindly recommend him because he will surely be an asset.",
 	},
 	{
-		imageUrl: "/images/lucas.jpeg",
+		image: lucasImage,
 		name: "Lucas Infante",
 		position: "Software Developer",
 		socialNetworks: [
@@ -26,7 +31,7 @@ export const TESTIMONIALS = [
 		text: "Ajaz is a great guy and an awesome developer. Besides having good work ethics, programming knowledge, and problem solving skills, he also learns and adapts quickly and has a keen attention to detail. Having Ajaz in the team is an advantage, totally recommend him!",
 	},
 	{
-		imageUrl: "/images/lisa.jpeg",
+		image: lisaImage,
 		name: "Lisa Schumann",
 		position: "Front-End Lead",
 		socialNetworks: [
@@ -39,7 +44,7 @@ export const TESTIMONIALS = [
 		text: "Ajaz is a fantastic person to work with. He is not only an incredibly proactive and talented developer, but also a multi-skilled and insightful colleague. With his strong problem solving skills as well as his impeccable work ethic, he is an asset to any company.",
 	},
 	{
-		imageUrl: "/images/soumil.jpeg",
+		image: soumilImage,
 		name: "Soumil Roy",
 		position: "Sr. Frontend Engineer",
 		socialNetworks: [
