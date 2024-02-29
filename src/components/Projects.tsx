@@ -17,7 +17,7 @@ export const Projects = () => {
 				</span>
 			</h2>
 
-			<p className="text-muted-foreground text-xl !mt-4 !mb-0 text-center">
+			<p className="text-muted-foreground text-xl !mt-4 !mb-0 md:text-center">
 				Here are a few past projects I've worked on.
 			</p>
 
