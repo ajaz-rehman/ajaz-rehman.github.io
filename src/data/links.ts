@@ -16,6 +16,6 @@ export const SERVICES = {
 	AWS_CloudFront: "https://aws.amazon.com/cloudfront",
 };
 
-export const SOURCE_CODE = "https://github.com/ajaz-ur-rehman";
+export const SOURCE_CODE = "https://github.com/ajaz-ur-rehman/ajaz-ur-rehman.github.io";
 
 export const WEBSITE = "https://ajaz-ur-rehman.github.io";
