@@ -17,5 +17,3 @@ export const SERVICES = {
 };
 
 export const SOURCE_CODE = "https://github.com/ajaz-ur-rehman/ajaz-ur-rehman.github.io";
-
-export const WEBSITE = "https://ajaz-ur-rehman.github.io";
