@@ -5,7 +5,7 @@ export const SOCIAL = {
 	email: "mailto:ajazurrehman4@gmail.com",
 };
 
-export const RESUME = "/Ajaz Ur Rehman - Software Engineer - Resume.pdf";
+export const RESUME = "/Ajaz Ur Rehman - Resume - Software Engineer.pdf";
 
 export const SERVICES = {
 	Vite: "https://vitejs.dev",
