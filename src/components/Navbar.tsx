@@ -1,8 +1,8 @@
 import Link from "./Link";
 import { useState } from "react";
-import { CV } from "@/data/links";
 import { LogoIcon } from "./Icons";
 import { Menu } from "lucide-react";
+import { ResumeLink } from "@/data/links";
 import { ModeToggle } from "./mode-toggle";
 import { buttonVariants } from "./ui/button";
 import { DownloadIcon } from "@radix-ui/react-icons";
@@ -74,14 +74,14 @@ export const Navbar = () => {
 										</a>
 									))}
 									<a
-										href={CV}
+										href={ResumeLink}
 										target="_blank"
 										className={`w-[110px] border ${buttonVariants({
 											variant: "secondary",
 										})}`}
 									>
 										<DownloadIcon className="mr-2 w-5 h-5" />
-										CV
+										Resume
 									</a>
 								</nav>
 							</SheetContent>
@@ -104,9 +104,13 @@ export const Navbar = () => {
 					</nav>
 
 					<div className="hidden md:flex gap-2">
-						<a href={CV} target="_blank" className={`border ${buttonVariants({ variant: "secondary" })}`}>
+						<a
+							href={ResumeLink}
+							target="_blank"
+							className={`border ${buttonVariants({ variant: "secondary" })}`}
+						>
 							<DownloadIcon className="mr-2 w-5 h-5" />
-							CV
+							Resume
 						</a>
 
 						<ModeToggle />
