@@ -43,7 +43,7 @@ export const Navbar = () => {
 					<NavigationMenuItem className="font-bold flex">
 						<Link target="_self" href="/" className="ml-2 font-bold text-xl flex">
 							<LogoIcon />
-							Ajaz Ur Rehman
+							Ajaz Rehman
 						</Link>
 					</NavigationMenuItem>
 
