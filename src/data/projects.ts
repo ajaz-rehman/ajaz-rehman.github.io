@@ -8,28 +8,24 @@ export const PROJECTS = [
 	{
 		company: "Adsum",
 		imageSrc: adsumImage,
-		role: "Front-End Developer",
 		websiteLink: "https://adsum-works.com",
 		companyDescription: "Adsum is a UK fintech providing businesses instant access to their owed tax credits.",
 	},
 	{
 		company: "SKOOT",
 		imageSrc: skootImage,
-		role: "Front-End Developer",
 		websiteLink: "https://skoot.eco",
 		companyDescription: "SKOOT offers various products to help anyone reduce their carbon footprint.",
 	},
 	{
 		company: "AutomateMyApp",
 		imageSrc: automateMyAppImage,
-		role: "Full Stack Engineer",
 		websiteLink: "https://automatemyapp.com",
 		companyDescription: "AutomateMyApp is an automation service that helps people connect their apps.",
 	},
 	{
 		company: "Clearalist",
 		imageSrc: clearalistImage,
-		role: "Full Stack Engineer",
 		websiteLink: "https://clearalist.com",
 		companyDescription:
 			"Clearalist is an email verification service that helps businesses clean their email lists.",
@@ -37,7 +33,6 @@ export const PROJECTS = [
 	{
 		company: "Pabbly",
 		imageSrc: pabblyImage,
-		role: "Web Developer",
 		websiteLink: "https://pabbly.com",
 		companyDescription: "Pabbly is a suite of email marketing products and tools that help businesses grow.",
 	},

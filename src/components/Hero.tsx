@@ -16,7 +16,7 @@ export const Hero = () => {
 					<h2 className="inline">
 						A{" "}
 						<span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-							Full Stack Engineer
+							Software Engineer
 						</span>
 						.
 					</h2>

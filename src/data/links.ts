@@ -1,7 +1,7 @@
 export const SOCIAL = {
-	github: "https://github.com/ajaz-ur-rehman",
-	linkedin: "https://linkedin.com/in/ajaz-ur-rehman",
-	leetcode: "https://leetcode.com/ajaz-ur-rehman",
+	github: "https://github.com/ajaz-rehman",
+	linkedin: "https://linkedin.com/in/ajaz-rehman",
+	leetcode: "https://leetcode.com/ajaz-rehman",
 	email: "mailto:ajazurrehman4@gmail.com",
 };
 
@@ -16,4 +16,4 @@ export const SERVICES = {
 	AWS_CloudFront: "https://aws.amazon.com/cloudfront",
 };
 
-export const SOURCE_CODE = "https://github.com/ajaz-ur-rehman/ajaz-ur-rehman.github.io";
+export const SOURCE_CODE = "https://github.com/ajaz-rehman/ajaz-rehman.github.io";
